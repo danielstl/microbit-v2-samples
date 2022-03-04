@@ -1,0 +1,17 @@
+libraries/codal-core/CMakeFiles/codal-core.dir/source/types/RefCounted.cpp.obj: \
+ P:/microbit-v2-samples/libraries/codal-core/source/types/RefCounted.cpp \
+ P:/microbit-v2-samples/build/codal_extra_definitions.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\codalconfig.h \
+ P:/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/platform_includes.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\codaldevice.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\CodalConfig.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\ErrorNo.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\codal_target_hal.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\CodalFiber.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\types\event.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\EventModel.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\CodalComponent.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\CodalListener.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\MemberFunctionCallback.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\core\CodalCompat.h \
+ p:\microbit-v2-samples\libraries\codal-core\inc\types\refcounted.h

@@ -3,60 +3,22 @@
 
 MicroBit uBit;
 
-void buttonAEvent(MicroBitEvent)
-{
-    auto usb = uBit.flash;//new MicroBitUSBFlashManager(uBit.i2c, uBit.io, uBit.power);
-
-    MicroBitUSBFlashConfig config;
-
-    config.fileName = "MY_FILES.HTM";
-    config.fileSize = usb.getFlashEnd() - usb.getFlashStart() - usb.getPageSize();
-    config.visible = true;
-
-    usb.setConfiguration(config, false);
-
-    ManagedBuffer encodingWindowCommand(9);
-
-    encodingWindowCommand[0] = 0x09; // set encoding window
-
-    uint32_t encodingStart = 0;
-    uint32_t encodingEnd = config.fileSize;
-
-    encodingWindowCommand[4] = encodingStart; // encoding window start
-    encodingWindowCommand[3] = encodingStart >> 8; // encoding window start
-    encodingWindowCommand[2] = encodingStart >> 16; // encoding window start
-    encodingWindowCommand[1] = encodingStart >> 24; // encoding window start
-
-    encodingWindowCommand[8] = encodingEnd; // encoding window
-    encodingWindowCommand[7] = encodingEnd >> 8; // encoding window
-    encodingWindowCommand[6] = encodingEnd >> 16; // encoding window
-    encodingWindowCommand[5] = encodingEnd >> 24; // encoding window
-
-    usb.transact_DEBUG(encodingWindowCommand, 2);
-
-    usb.remount();
-}
-
 int main()
 {
     uBit.init();
 
-    //uBit.log.clear(true);
-
-    uBit.buttonA.enable();
-    uBit.messageBus.listen(MICROBIT_ID_BUTTON_A, MICROBIT_BUTTON_EVT_CLICK, buttonAEvent,
-                           MESSAGE_BUS_LISTENER_IMMEDIATE);
+    //uBit.log.setVisibility(false);//.clear(true);
 
     // 131072 bytes
     auto filesystem = new CodalFS(uBit.flash, 512);
 
-    //filesystem->format();
+    DMESG("about to format");
+    filesystem->format();
+    DMESG("formatted");
 
     int version = (int) uBit.power.readProperty(MICROBIT_UIPM_PROPERTY_I2C_VERSION)[0];
 
     DMESG("Version is %d", version);
-
-    filesystem->format();
 
     int res;
 
@@ -84,7 +46,7 @@ int main()
     res = filesystem->write(handle, (uint8_t *) "TESTTEST", 9);
     filesystem->close(handle);
 
-    handle = filesystem->open("daniel/test5/file.txt", FS_WRITE | FS_CREAT);
+    handle = filesystem->open("daniel/test5/file2.txt", FS_WRITE | FS_CREAT);
 
     res = filesystem->write(handle, (uint8_t *) "TESTTEST", 9);
     filesystem->close(handle);
@@ -92,6 +54,34 @@ int main()
     filesystem->debug_print_directory(nullptr);
 
     DMESGF("AAA");
+
+    DMESGF("button A pressed!");
+
+    auto usb = uBit.flash;//new MicroBitUSBFlashManager(uBit.i2c, uBit.io, uBit.power);
+
+    MicroBitUSBFlashConfig config;
+
+    config.fileName = "AA_FILES.HTM";
+    config.fileSize = usb.getFlashEnd() - usb.getFlashStart() - usb.getPageSize();
+    config.visible = true;
+
+    DMESGF("setting config");
+
+    usb.setConfiguration(config, false);
+
+    DMESGF("config set");
+
+    DMESGF("encoding...");
+
+    usb.setHexEncodingWindow(4096, usb.getFlashEnd());
+
+    DMESGF("done");
+
+    usb.remount();
+
+    DMESGF("remounted");
+
+    while(1);
 
     release_fiber();
 
@@ -101,7 +91,7 @@ int main()
 
     // filesystem->debug_print_root_dirent();
 
-    filesystem->createDirectory("helloworld");
+    /*filesystem->createDirectory("helloworld");
 
     filesystem->createDirectory("daniel");
     handle = filesystem->open("daniel/test6.txt", FS_READ);
@@ -143,5 +133,5 @@ int main()
         DMESG((char *) buffer);
     }
 
-    release_fiber();
+    release_fiber();*/
 }
