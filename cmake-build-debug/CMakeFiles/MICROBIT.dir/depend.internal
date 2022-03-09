@@ -243,6 +243,7 @@ CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -253,6 +254,8 @@ CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -455,6 +458,7 @@ CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -465,6 +469,8 @@ CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -667,6 +673,7 @@ CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -677,6 +684,8 @@ CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -879,6 +888,7 @@ CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -889,6 +899,8 @@ CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -1091,6 +1103,7 @@ CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -1101,6 +1114,8 @@ CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -1303,6 +1318,7 @@ CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -1313,6 +1329,8 @@ CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -1515,6 +1533,7 @@ CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -1525,6 +1544,8 @@ CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -1727,6 +1748,7 @@ CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -1737,6 +1759,8 @@ CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -1939,6 +1963,7 @@ CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -1949,6 +1974,8 @@ CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -2151,6 +2178,7 @@ CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -2161,6 +2189,8 @@ CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -2363,6 +2393,7 @@ CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -2373,6 +2404,8 @@ CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -2576,6 +2609,7 @@ CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -2586,6 +2620,8 @@ CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -2789,6 +2825,7 @@ CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -2799,6 +2836,8 @@ CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -3002,6 +3041,7 @@ CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -3012,6 +3052,8 @@ CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -3214,6 +3256,7 @@ CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -3224,6 +3267,8 @@ CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -3426,6 +3471,7 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -3436,6 +3482,8 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -3638,6 +3686,7 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -3648,6 +3697,8 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -3851,6 +3902,7 @@ CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -3861,6 +3913,8 @@ CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -4066,6 +4120,7 @@ CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -4076,6 +4131,8 @@ CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
@@ -4278,6 +4335,7 @@ CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o
  ../libraries/codal-core/inc/driver-models/Timer.h
  ../libraries/codal-core/inc/drivers/AnimatedDisplay.h
  ../libraries/codal-core/inc/drivers/Button.h
+ ../libraries/codal-core/inc/drivers/CodalFS.h
  ../libraries/codal-core/inc/drivers/FXOS8700.h
  ../libraries/codal-core/inc/drivers/KeyValueStorage.h
  ../libraries/codal-core/inc/drivers/LEDMatrix.h
@@ -4288,6 +4346,8 @@ CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o
  ../libraries/codal-core/inc/drivers/PulseIn.h
  ../libraries/codal-core/inc/drivers/TouchButton.h
  ../libraries/codal-core/inc/drivers/TouchSensor.h
+ ../libraries/codal-core/inc/drivers/VSGlue.h
+ ../libraries/codal-core/inc/drivers/stdafx.h
  ../libraries/codal-core/inc/streams/DataStream.h
  ../libraries/codal-core/inc/streams/LevelDetector.h
  ../libraries/codal-core/inc/streams/LevelDetectorSPL.h
