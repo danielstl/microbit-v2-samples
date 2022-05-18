@@ -57,10 +57,10 @@ include CMakeFiles/MICROBIT.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MICROBIT.dir/flags.make
 
-CMakeFiles/MICROBIT.dir/source/main.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MICROBIT.dir/source/main.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/main.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/main.cpp
+CMakeFiles/MICROBIT.dir/source/main.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/main.cpp.obj: ../source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MICROBIT.dir/source/main.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/main.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/main.cpp
 
 CMakeFiles/MICROBIT.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/main.cpp.i"
@@ -70,10 +70,10 @@ CMakeFiles/MICROBIT.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/main.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/main.cpp -o CMakeFiles/MICROBIT.dir/source/main.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o: ../source/samples/AccelerometerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AccelerometerTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj: ../source/samples/AccelerometerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AccelerometerTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.i"
@@ -83,10 +83,10 @@ CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AccelerometerTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o: ../source/samples/AudioTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AudioTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj: ../source/samples/AudioTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AudioTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.i"
@@ -96,10 +96,10 @@ CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/AudioTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o: ../source/samples/BLETest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BLETest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj: ../source/samples/BLETest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BLETest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.i"
@@ -109,10 +109,10 @@ CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BLETest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o: ../source/samples/BlinkyTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BlinkyTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj: ../source/samples/BlinkyTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BlinkyTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.i"
@@ -122,10 +122,10 @@ CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/BlinkyTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o: ../source/samples/ButtonTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/ButtonTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj: ../source/samples/ButtonTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/ButtonTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.i"
@@ -135,10 +135,10 @@ CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/ButtonTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o: ../source/samples/CapTouchTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/CapTouchTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj: ../source/samples/CapTouchTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/CapTouchTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.i"
@@ -148,10 +148,10 @@ CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/CapTouchTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o: ../source/samples/DeepSleepTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DeepSleepTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj: ../source/samples/DeepSleepTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DeepSleepTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.i"
@@ -161,10 +161,10 @@ CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DeepSleepTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o: ../source/samples/DisplayTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DisplayTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj: ../source/samples/DisplayTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DisplayTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.i"
@@ -174,10 +174,10 @@ CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/DisplayTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o: ../source/samples/GPIOTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/GPIOTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj: ../source/samples/GPIOTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/GPIOTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.i"
@@ -187,10 +187,10 @@ CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/GPIOTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o: ../source/samples/LightLevelTestRaw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/LightLevelTestRaw.cpp
+CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj: ../source/samples/LightLevelTestRaw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/LightLevelTestRaw.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.i"
@@ -200,10 +200,10 @@ CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/LightLevelTestRaw.cpp -o CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o: ../source/samples/MicrophoneTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/MicrophoneTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj: ../source/samples/MicrophoneTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/MicrophoneTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.i"
@@ -213,10 +213,10 @@ CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/MicrophoneTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o: ../source/samples/NoiseProfiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/NoiseProfiler.cpp
+CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj: ../source/samples/NoiseProfiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/NoiseProfiler.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.i"
@@ -226,10 +226,10 @@ CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/NoiseProfiler.cpp -o CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o: ../source/samples/OOB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/OOB.cpp
+CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj: ../source/samples/OOB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/OOB.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.i"
@@ -239,10 +239,10 @@ CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/OOB.cpp -o CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o: ../source/samples/PowerManagementTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/PowerManagementTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj: ../source/samples/PowerManagementTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/PowerManagementTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.i"
@@ -252,10 +252,10 @@ CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/PowerManagementTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o: ../source/samples/RadioTestRx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/RadioTestRx.cpp
+CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj: ../source/samples/RadioTestRx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/RadioTestRx.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.i"
@@ -265,10 +265,10 @@ CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/RadioTestRx.cpp -o CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o: ../source/samples/SerialNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialNumber.cpp
+CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj: ../source/samples/SerialNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialNumber.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.i"
@@ -278,10 +278,10 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialNumber.cpp -o CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o: ../source/samples/SerialStreamer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialStreamer.cpp
+CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj: ../source/samples/SerialStreamer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialStreamer.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.i"
@@ -291,10 +291,10 @@ CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SerialStreamer.cpp -o CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o: ../source/samples/SpeakerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SpeakerTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj: ../source/samples/SpeakerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SpeakerTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.i"
@@ -304,10 +304,10 @@ CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/SpeakerTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o: ../source/samples/TemperatureTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/TemperatureTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj: ../source/samples/TemperatureTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/TemperatureTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.i"
@@ -317,10 +317,10 @@ CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/TemperatureTest.cpp -o CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.s
 
-CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o: CMakeFiles/MICROBIT.dir/flags.make
-CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o: ../source/samples/USBFlashTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/USBFlashTest.cpp
+CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj: CMakeFiles/MICROBIT.dir/flags.make
+CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj: ../source/samples/USBFlashTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj"
+	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj -c /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/source/samples/USBFlashTest.cpp
 
 CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.i"
@@ -332,52 +332,52 @@ CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.s: cmake_force
 
 # Object files for target MICROBIT
 MICROBIT_OBJECTS = \
-"CMakeFiles/MICROBIT.dir/source/main.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o" \
-"CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o"
+"CMakeFiles/MICROBIT.dir/source/main.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj" \
+"CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj"
 
 # External object files for target MICROBIT
 MICROBIT_EXTERNAL_OBJECTS =
 
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/main.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.o
-../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.o
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/main.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/AccelerometerTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/AudioTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/BLETest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/BlinkyTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/ButtonTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/CapTouchTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/DeepSleepTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/DisplayTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/GPIOTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/LightLevelTestRaw.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/MicrophoneTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/NoiseProfiler.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/OOB.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/PowerManagementTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/RadioTestRx.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SerialNumber.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SerialStreamer.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/SpeakerTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/TemperatureTest.cpp.obj
+../build/MICROBIT: CMakeFiles/MICROBIT.dir/source/samples/USBFlashTest.cpp.obj
 ../build/MICROBIT: CMakeFiles/MICROBIT.dir/build.make
 ../build/MICROBIT: ../build/libcodal-microbit-v2.a
 ../build/MICROBIT: ../build/libcodal-core.a

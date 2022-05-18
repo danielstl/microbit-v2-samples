@@ -20,10 +20,10 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/usr/bin/arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar-9")
+set(CMAKE_CXX_COMPILER_AR "/usr/bin/arm-none-eabi-gcc-ar")
 set(CMAKE_RANLIB "/usr/bin/arm-none-eabi-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib-9")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/usr/bin/arm-none-eabi-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)

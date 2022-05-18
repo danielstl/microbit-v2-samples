@@ -1,4 +1,4 @@
-C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples"
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples -B /mnt/c/Users/Daniel/Documents/Projects/microbit-v2-samples/cmake-build-debug"
 codal-microbit-v2 is already installed
 [1;35mSet target: codal-microbit-v2 [m
 [1;35mUsing target.json (dev version) [m

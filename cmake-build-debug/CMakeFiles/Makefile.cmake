@@ -43,11 +43,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.16/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.16/Modules/Platform/Generic.cmake"
   "/usr/share/cmake-3.16/Modules/ProcessorCount.cmake"
   )
 
