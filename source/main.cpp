@@ -3,7 +3,7 @@
 
 MicroBit uBit;
 
-static uint8_t* webUsbInterface;
+static volatile uint8_t webUsbInterface[256];
 
 #define WEBUSB_OP_PUSH_PATCH 1
 #define WEBUSB_OP_CONTINUE_PATCH 2
@@ -64,8 +64,6 @@ uint16_t u8_to_u16(const uint8_t* bytes) {
 int main()
 {
     uBit.init();
-
-    webUsbInterface = new uint8_t[256];
 
     for (int i = 0; i < 256; i++) {
         webUsbInterface[i] = 0;
@@ -153,12 +151,15 @@ int main()
 
     DMESGF("WebUSB interface @ %d", webUsbInterface);
 
-    CodalFS::defaultFileSystem->debug_print_directory(nullptr);
+    //CodalFS::defaultFileSystem->debug_print_directory(nullptr);
 
-    while (!formatting)
+    while (true)
     {
+        uBit.sleep(10);
+
         /////////todo TEMP
         if (createFile) {
+            DMESG("Creating file...");
             auto randNumber = uBit.random(999999);
             char* fileName = new char[6];
             itoa(randNumber, fileName);
@@ -179,24 +180,28 @@ int main()
             continue; // not modified / no-op
         }
 
-        DMESGF("Found CMD %d", cmd);
+        DMESG("Found CMD %d", cmd);
 
         if (cmd == WEBUSB_OP_PUSH_PATCH)
         {
             int ix = 1;
-            DMESGF("A");
 
             //while (ix < 256) {
-                DMESGF("B");
-                uint32_t patchPos = u8_to_u32(webUsbInterface + ix);
-                uint8_t patchLength = webUsbInterface[ix + 4];
+            uint32_t patchPos = u8_to_u32((uint8_t*) (webUsbInterface + ix));
+            uint8_t patchLength = webUsbInterface[ix + 4];
 
-                for (int test = 0; test < 10; test++)
+            DMESG("Beginning patch command: pos %d len %d", patchPos, patchLength);
+
+            DMESG("=== Patch payload:");
+
+            for (int test = 0; test < 256; test++)
                 {
-                    DMESGF("[%d] %d", test, webUsbInterface[test]);
+                    DMESGN("%X ", webUsbInterface[test]);
+                    //DMESGF("[%d] %d", test, webUsbInterface[test]);
                 }
 
-                DMESGF("C pos %d len %d", patchPos, patchLength);
+            DMESG("===");
+
 
                //if (ix + 4 + patchLength > 256) {
                //    DMESGF("Can't apply patch more than 256 bytes!");
@@ -207,7 +212,11 @@ int main()
 
                 auto patchPosOffset = patchPos - wordAlignedPatchPos;
 
-                auto wordAlignedPatchLength = patchLength + (patchLength % 4 == 0 ? 0 : 4 - (patchLength % 4));
+                auto l = (patchPosOffset + patchLength);
+
+                //auto wordAlignedPatchLength = patchLength + (patchLength % 4 == 0 ? 0 : 4 - (patchLength % 4));
+                auto wordAlignedPatchLength = l + (4 - (l % 4));
+
 
                 auto * wordAlignedData = new uint8_t [wordAlignedPatchLength];
 
@@ -216,8 +225,8 @@ int main()
                 //uint32_t *scratch = (uint32_t *)malloc(uBit.flash.getPageSize());
                 //memset(scratch, 0xFF, uBit.flash.getPageSize());
 
-                DMESGF("word aligned pos %d word aligned len %d", wordAlignedPatchPos, wordAlignedPatchLength);
-                DMESGF("pos with offset %d", wordAlignedPatchPos + CODALFS_OFFSET);
+                DMESG("word aligned pos %d word aligned len %d", wordAlignedPatchPos, wordAlignedPatchLength);
+                DMESG("pos with offset %d l %d", wordAlignedPatchPos + CODALFS_OFFSET, l);
 
                 CodalFS::defaultFileSystem->cache.read(wordAlignedPatchPos, wordAlignedData, wordAlignedPatchLength);
 
@@ -243,20 +252,18 @@ int main()
 
                 //ix += patchLength + 6;
 
-                DMESGF("Applied patch!!!");
+                DMESG("Applied patch!!!");
             //}
         }
         else if (cmd == WEBUSB_OP_PRINT_MESSAGE)
         {
-            DMESGF("%s", webUsbInterface[1]);
+            DMESG("%s", webUsbInterface[1]);
         }
         else if (cmd == WEBUSB_OP_FORMAT_FS)
         {
-            DMESGF("FORMATTING FS!!!!");
+            DMESG("FORMATTING FS!!!!");
             CodalFS::defaultFileSystem->format();
         }
-
-        DMESGF("D");
 
         for (int i = 1; i < 256; i++) {
             webUsbInterface[i] = 0;
@@ -264,7 +271,7 @@ int main()
 
         webUsbInterface[0] = WEBUSB_OP_RESPONSE_SUCCESS;
 
-        DMESGF("SUCCESS!");
+        DMESG("SUCCESS!");
     }
 
     release_fiber();
