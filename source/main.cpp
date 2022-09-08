@@ -96,6 +96,7 @@ int main()
                 if (messageLen == 0 || (messageLen >= bufferLen)) { // wait until the start of a new message. we can't exceed buffer length either
 
                     if (read[i] == '$') {
+                        messageLen = 0;
                         appendToString = true;
                     } else {
                         continue;
