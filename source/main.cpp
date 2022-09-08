@@ -4,25 +4,23 @@
 MicroBit uBit;
 
 struct GNGGAMessage {
-    uint16_t utc;
+    float utc;
     double lat;
-    uint8_t lat_dir;
+    char lat_dir;
     double lon;
-    uint8_t lon_dir;
+    char lon_dir;
     uint8_t quality;
     uint8_t sats;
     float hdop;
     double alt;
-    uint8_t a_units;
+    char a_units;
     float undulation;
-    uint8_t u_units;
-    uint8_t age;
+    char u_units;
+    //uint8_t age; always empty
 };
 
 void parseGNGGAMessage(char* message) {
-    if (strncmp(message, "$GNGGA", 5) == 0) {
-        DMESGF("new gngga: %s", message);
-    } else {
+    if (strncmp(message, "$GNGGA", 5) != 0) {
         return;
     }
 
@@ -64,6 +62,29 @@ void parseGNGGAMessage(char* message) {
     char* u_units = message + fieldStartIndexes[12];
     char* age = message + fieldStartIndexes[13];
     char* station = message + fieldStartIndexes[14];
+
+    GNGGAMessage parsed;
+
+    parsed.utc = strtof(utc, nullptr);
+
+    parsed.lat_dir = lat_dir[0];
+    float latRaw = strtof(lat, nullptr);
+    parsed.lat = (floor(latRaw / 100) + fmod(latRaw, 100) / 60) * (parsed.lat_dir == 'S' ? -1 : 1);
+
+    parsed.lon_dir = lon_dir[0];
+    float lonRaw = strtof(lon, nullptr);
+    parsed.lon = (floor(lonRaw / 100) + fmod(lonRaw, 100) / 60) * (parsed.lon_dir == 'W' ? -1 : 1);
+
+    parsed.quality = strtol(quality, nullptr, 10);
+    parsed.sats = strtol(sats, nullptr, 10);
+    parsed.hdop = strtof(hdop, nullptr);
+    parsed.alt = strtof(alt, nullptr);
+    parsed.a_units = a_units[0];
+    parsed.undulation = strtof(undulation, nullptr);
+    parsed.u_units = u_units[0];
+
+    // casting to int since it's hard to log floats!
+    DMESGF("GNGGA! utc: %d, lat: %d, lon: %d, alt: %d", (int) parsed.utc, (int) (parsed.lat * 1000), (int) (parsed.lon * 1000), (int) (parsed.alt * 1000));
 }
 
 int main()
