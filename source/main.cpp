@@ -3,7 +3,7 @@
 
 MicroBit uBit;
 
-struct GPGGAMessage {
+struct GNGGAMessage {
     uint16_t utc;
     double lat;
     uint8_t lat_dir;
@@ -19,45 +19,66 @@ struct GPGGAMessage {
     uint8_t age;
 };
 
+void parseGNGGAMessage(char* message) {
+    if (strncmp(message, "$GNGGA", 5) == 0) {
+        DMESGF("new gngga: %s", message);
+    }
+
+    int index = 6;
+
+
+}
+
 int main()
 {
     uBit.init();
-    //uBit.serial.init();
 
-    //uBit.log.clear();
-
-    //ManagedBuffer buffer = ManagedBuffer(255);
-    int index = 0;
-
-    //uBit.i2c.clearBus();
+    ManagedBuffer message = ManagedBuffer(255);
+    int messageLen = 0;
 
     while (1) {
-        uBit.sleep(100);
+        uint8_t res[2] = {0};
 
-        uint8_t* res = new uint8_t[2];
-        int resCode = uBit.i2c.readRegister(0x42, 0xfd, res, 1, true);
-        int resCode2 = uBit.i2c.readRegister(0x42, 0xfe, res + 1, 1, true);
+        if (uBit.i2c.readRegister(0x42 << 1, 0xfd, res, 1, true) != DEVICE_OK || uBit.i2c.readRegister(0x42 << 1, 0xfe, res + 1, 1, true) != DEVICE_OK) {
+            DMESG("I2C error reading GPS!!");
+            continue;
+        }
 
+        int bytes = res[0] << 8 | res[1];
 
-        //buffer.setByte(index, res);
+        if (bytes > 0)
+        {
+            char *read = (char *)malloc(bytes);
 
-        /*if (res < 255) {
-            if (res == 10) {
-                auto str = ManagedString(buffer).toCharArray();
-                DMESGF(str);
+            uBit.i2c.read(0x42 << 1, (uint8_t*) read, bytes, false);
+            int bufferLen = message.length();
 
-                if (strncmp(str, "$GPGGA", 5) == 0) {
+            for (int i = 0; i < bytes; i++) {
+                bool appendToString = messageLen > 0;
 
+                if (messageLen == 0 || (messageLen >= bufferLen)) { // wait until the start of a new message. we can't exceed buffer length either
 
+                    if (read[i] == '$') {
+                        appendToString = true;
+                    } else {
+                        continue;
+                    }
+                }
+
+                if (appendToString) {
+                    if (read[i] == '\n') { // end of string!
+                        message.setByte(messageLen, '\0');
+
+                        parseGNGGAMessage((char*) message.getBytes());
+
+                        messageLen = 0;
+                    } else {
+                        message.setByte(messageLen++, read[i]);
+                    }
                 }
             }
-        }*/
 
-        //uBit.sleep(1000);
-        //uint8_t* data = (uint8_t*) malloc(100);
-        //uBit.i2c.read(0x42, data, 100);
-        DMESG("%c", res);
-
-        index++;
+            free(read);
+        }
     }
 }
