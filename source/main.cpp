@@ -1,3 +1,5 @@
+#include "inc/GlobalPosition.h"
+#include "inc/ZOEM8QGlobalPosition.h"
 #include "MicroBit.h"
 #include "MicroBitDevice.h"
 
@@ -95,6 +97,7 @@ int main()
     int messageLen = 0;
 
     while (1) {
+        uBit.sleep(80);
         uint8_t res[2] = {0};
 
         if (uBit.i2c.readRegister(0x42 << 1, 0xfd, res, 1, true) != DEVICE_OK || uBit.i2c.readRegister(0x42 << 1, 0xfe, res + 1, 1, true) != DEVICE_OK) {
@@ -139,5 +142,17 @@ int main()
 
             free(read);
         }
+    }
+}
+
+int main0()
+{
+    uBit.init();
+
+    GlobalPosition* gps = new ZOEM8QGlobalPosition(uBit.i2c);
+
+    while (1) {
+        uBit.sleep(100);
+        DMESG("lat %d lon %d alt %d", (int) (gps->latitude * 1000), (int) (gps->longitude * 1000), (int) (gps->altitude * 1000));
     }
 }
