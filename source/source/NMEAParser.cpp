@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 12/09/2022.
-//
-
 #include <CodalDmesg.h>
 #include "../inc/NMEAParser.h"
 
@@ -35,7 +31,6 @@ void NMEAParser::parse() {
 void NMEAParser::_parseGNGGA()
 {
     char* message = (char*) _buffer.getBytes();
-    //int len = strlen(message);
 
     strtok(message, ",");
 
@@ -59,5 +54,7 @@ void NMEAParser::_parseGNGGA()
 
     float lonRaw = strtof(lon, nullptr);
     longitude = (floor(lonRaw / 100) + fmod(lonRaw, 100) / 60) * (lon_dir[0] == 'W' ? -1 : 1);
+
+    altitude = strtof(alt, nullptr);
 }
 } // namespace codal
